@@ -10,7 +10,7 @@
     <dt>Publisher</dt>
     <dd>{{ book.publisher }}</dd>
     <dt>Update Date</dt>
-    <dd>{{ book.updated_at }}</dd>
+    <dd>{{ book.updated_date | date:'short' }}</dd>
   </dl>
 </div>
 <div class="row">
